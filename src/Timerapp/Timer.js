@@ -14,7 +14,7 @@ componentWillUnmount =() => {
 
 componentDidMount= ()=>{
     this.interval =setInterval(
-        ()=> this.setState({seconds : this.state.seconds+1}),
+        () => this.setState({seconds : this.state.seconds+1}),
         1000);
 };
 

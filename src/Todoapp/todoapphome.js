@@ -1,15 +1,16 @@
-import InputForm from './InputForm.js';
+import { Component } from "react";
+import InputForm from "./InputForm";
 
-const { Component } = require("react");
-
-class ToDoAppHome extends Component {
+class TodoAppHome extends Component {
         render() {
         return (
-<>
-        <h1> To Do List App</h1>
-            {/* input form for the to do list */}
-        <InputForm> </InputForm>
-</>
-);
+        <>
+                <h1>ToDo List App</h1>
+            {/* Input form for the todo list App */}
+                <InputForm/>
+        </>
+        )
+        }  
 }
-}
+
+export default TodoAppHome;
