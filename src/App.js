@@ -1,7 +1,7 @@
 
 import './App.css';
 import Timer from './TimerApp/Timer';
-import ToDoAppHome from './ToDoAppHome.js';
+import ToDoAppHome from './ToDoApp/ToDoAppHome.js';
 
 function App() {
   return (
